@@ -1,0 +1,23 @@
+.donateContainer {
+  max-width: 1120px;
+  position: relative;
+  margin: 8rem auto;
+  display: flex;
+  justify-content: right;
+  z-index: 99;
+
+  button {
+    border: 0;
+    background-color: #ffb800;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    filter: drop-shadow(2px 1px 5px rgba(255, 255, 255, 0.3));
+    transition: all 0.3s;
+  }
+
+  button:hover {
+    transform: scale(1.2);
+  }
+}
